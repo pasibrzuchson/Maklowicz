@@ -1,0 +1,83 @@
+body 
+{
+  display: flex;
+  background-image:url(Grafika/Makłowicz.jpg);
+  overflow: hidden;
+}
+h1
+{
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    margin-right: 10px; 
+    margin-top: 1px;
+}
+.elo 
+{
+  color: white;
+  font-family: Arial;
+  font-size: 58px;
+  font-weight: 900;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  margin-top: 250px;
+  margin-left: auto;
+  margin-right: 650px;
+}
+
+.siema 
+{
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+}
+
+p 
+{
+  margin: 0;
+  height: 55px;
+  line-height: 50px;
+  transition: all 0.5s ease-in-out;
+}
+
+.siema:nth-child(odd) 
+{
+  transform: skew(60deg, -30deg) scaleY(0.667);
+}
+
+.siema:nth-child(even) 
+{
+  transform: skew(0deg, -30deg) scaleY(1.337);
+}
+
+.elo:hover p 
+{
+  transform: translate(0, -55px);
+}
+
+.siema:nth-child(1) 
+{
+  left: 29px;
+}
+
+.siema:nth-child(2) 
+{
+  left: 58px;
+  background-color: #FFC4A9;
+}
+
+.siema:nth-child(3) 
+{
+  left: 87px;
+  background: #7AD8FF;
+}
+
+.siema:nth-child(4) 
+{
+  left: 116px;
+  background: #91FF73;
+}
+
+.siema:nth-child(5) 
+{
+  left: 145px;
+}
